@@ -1,0 +1,35 @@
+.userMenuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+  margin-left: auto;
+}
+
+.userMenuText {
+  margin: 0 50px 0 0;
+  color: #DF9A81;
+}
+
+.userMenuBtn {
+  border: #59514F 2px solid;
+  border-radius: 30px;
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.userMenuBtn:hover,
+.userMenuBtn:focus {
+  background-color: #DF9A81;
+}
+
+.iconLogout {
+  width: 30px;
+  margin-right: 10px;
+}

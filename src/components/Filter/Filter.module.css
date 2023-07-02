@@ -1,10 +1,14 @@
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .filterLabel {
   width: 100%;
   font-size: 15px;
   color: #59514F;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .filterInput {
@@ -28,7 +32,7 @@
 }
 
 .filterText {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
 }
 

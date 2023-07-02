@@ -1,0 +1,94 @@
+.regForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #59514F;
+  width: 700px;
+  padding: 20px;
+  border: #A69792 3px solid;
+  border-radius: 30px;
+}
+
+h2 {
+  font-family: 'Kalam', cursive;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #DF9A81;
+}
+
+.regLabel {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.regInput {
+  width: 450px;
+  outline: none;
+  height: 30px;
+  margin-bottom: 20px;
+  border: #59514F 2px solid;
+  border-radius: 30px;
+  padding-left: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.regInput:hover,
+.regInput:focus {
+  border: #DF9A81 2px solid;
+  -webkit-box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.regInput.error {
+  border: 1px solid red;
+}
+
+.regButton {
+  background-color: #DF9A81;
+  border: #59514F 1px solid;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #59514F;
+  font-family: 'Kalam', cursive;
+  font-weight: bolder;
+  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  transition: transform .15s;
+}
+
+.regButton:hover,
+.regButton:focus {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+.regLoginText {
+  font-size: 20px;
+  color: #59514F;
+  margin-top: 50px;
+}
+
+.regLoginLink {
+  font-family: 'Kalam', cursive;
+  font-size: 25px;
+  color: #DF9A81;
+  padding: 2px 10px;
+  border-radius: 30px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regLoginLink:hover,
+.regLoginLink:focus {
+  color: white;
+  background-color: #DF9A81;
+}
+

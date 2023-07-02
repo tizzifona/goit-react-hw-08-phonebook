@@ -1,0 +1,13 @@
+.notFoundContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.notFoundText {
+  font-family: 'Kalam', cursive;
+  font-size: 40px;
+  color: #59514F;
+}

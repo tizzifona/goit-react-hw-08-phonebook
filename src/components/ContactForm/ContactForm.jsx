@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from '../Redux/contactsSlice';
+import { addContact } from '../Redux/Contacts/contactsSlice';
 import { nanoid } from '@reduxjs/toolkit';
 import css from './ContactForm.module.css';
 import Notiflix from 'notiflix';
